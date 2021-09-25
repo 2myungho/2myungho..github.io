@@ -22,6 +22,7 @@ subtitle: "Version 1.0" # 타이틀 아래에 나올 작은 글씨
 name: "이명호" # 맨 하단 이름 찍히는 영역
 description: "관심 있는 건 일단 공부해보는 블로그" # Meta 태그에 들어가는 영역
 url: "2myungho.github.io"
+# url: http://localhost:4000
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "2myungho/2myungho.github.io"
 teaser: # "/assets/images/logo.jpg" # 홈페이지 기본 티져 이미지

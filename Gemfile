@@ -1,2 +1,6 @@
 source "https://rubygems.org"
-gemspec
+
+gem 'github-pages'
+gem 'jekyll-include-cache'
+
+# 참고 : https://github.com/github/pages-gem
