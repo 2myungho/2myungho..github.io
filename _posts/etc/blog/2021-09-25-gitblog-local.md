@@ -1,5 +1,5 @@
 ---
-title: "(Windows) github blog local에서 실행하기"
+title: "[Github 블로그](Windows) github blog local에서 실행하기"
 excerpt: "원격 저장소에서 확인하지 말고 로컬에서 먼저 확인하자."
 
 category: Blog
