@@ -12,6 +12,22 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <span class="nav__sub-title">mobileApp</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ReactNative" %}
+                        <li><a href="/categories/react-native" class=""> ReactNative ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">os</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Windows" %}
+                        <li><a href="/categories/windows" class=""> Windows ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">etc</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
@@ -20,14 +36,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
                         <li><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">mobileApp</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "ReactNative" %}
-                        <li><a href="/categories/react-native" class=""> ReactNative ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
