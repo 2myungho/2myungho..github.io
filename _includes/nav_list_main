@@ -20,6 +20,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">language</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Js" %}
+                        <li><a href="/categories/js" class=""> Javascript ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">os</span>
             <ul>
                 {% for category in site.categories %}
